@@ -112,7 +112,7 @@ if __name__ == "__main__":
 
 ### Example
 ```bash
-python predict.py test_image.jpg my_model.h5 --top_k 3 --category_names labels.json
+python predict.py test_image.jpg my_model.h5 --top_k 3 --category_names label_map.json
 ```
 
 ### Requirements
